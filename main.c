@@ -6,13 +6,13 @@
 
 int main()
 {
-  //geometrymenu();
+  geometrymenu();
   printf("\n\n");
   
-  //popSize();
+  popSize();
   printf("\n\n");
   
-  //game();
+  game();
   printf("\n\n");
   
   int arr[] = {4,7,1,2,8,0};
