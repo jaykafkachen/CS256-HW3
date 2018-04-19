@@ -6,19 +6,17 @@
 
 int main()
 {
-  geometrymenu();
+  //geometrymenu();
   printf("\n\n");
   
-  popSize();
+  //popSize();
   printf("\n\n");
   
-  game();
+  //game();
   printf("\n\n");
   
   int arr[] = {4,7,1,2,8,0};
   printf("Testing reverse() with array = {4,7,1,2,8,0}\nreversing...\n");
-  int *rev = reverse(arr, 6);
-  printf("Reversed: ");
-  arrayPrint(rev, 6);
+  int *ptr = reverse(arr, 6);
   return 0;
 }
